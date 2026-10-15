@@ -1,0 +1,32 @@
+{
+  "mint": "3e2PYneVBXTyemNiSQ5VVkuYM4bYNPxLqvWkKjA5zXAM",
+  "network": "mainnet-beta",
+  "standard": "Token-2022",
+  "genesis_transactions": [
+    {
+      "utc": "2026-10-15T00:51:49Z",
+      "action": "create-mint",
+      "signature": "2vGEk1vM2MYP1EctGkP42Pi844W8qzGAZzK26X4HnserwpFvRV7vEiYhvG84MVD83mvMpqi5kJkyB5ia4kcvDtoZ"
+    },
+    {
+      "utc": "2026-10-15T02:15:35Z",
+      "action": "initialize-metadata",
+      "signature": "5zBDSrJWDHxNLuAnGtHjmEVTJHQSmzPXzJZ6VDx8PfCMfHoNuAWpumk9r7JAznR26CF1BiUcj3SysezmJjNSyH6q"
+    },
+    {
+      "utc": "2026-10-15T02:22:05Z",
+      "action": "create-token-account",
+      "signature": "3AkH2xdgNgjjgsXnKzMGjvo7KqPnp77MRqYx89W4NHBp1Ni1eL4uNgXMLkwCKobmhmXvEL1oHh21u2KVzKRofr6s"
+    },
+    {
+      "utc": "2026-10-15T02:23:20Z",
+      "action": "mint-supply-333333",
+      "signature": "2wEzGYGmKqKMREpXzpnBLYdUXjo5R9jiR3XNtXhoF16dWPK3idctRiEoB86YiLY2ghoEqwL1uQ5dvDAUPnf71E8w"
+    },
+    {
+      "utc": "2026-10-15T02:41:22Z",
+      "action": "renounce-mint-authority",
+      "signature": "4fFC75LomHp1SVZfTBdb69ARWcKjyvNStuKogUsXgbZmvim8RxBcYbak7XK9zA8FjsmQEwYtKJPMnFVCVpjJnFNy"
+    }
+  ]
+}
