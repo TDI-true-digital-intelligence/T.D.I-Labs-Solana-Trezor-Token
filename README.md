@@ -1,5 +1,7 @@
 # TDI — True Digital Intelligence
 
+![TDI](logo.png)
+
 **Trezor-born.** Every identity-defining transaction of TDI was signed on a **Trezor Model T**
 screen. No software keypair ever held the mint's authorities. Don't take the word for it —
 every picture below is a command you can run yourself.
@@ -9,44 +11,44 @@ every picture below is a command you can run yourself.
 
 ---
 
-### 1️⃣ The token is live. Supply 333,333 — held by one wallet.
+### The token is live. Supply 333,333 — held by one wallet.
 
 ![supply](screenshots/01-supply.png)
 
-### 2️⃣ The Trezor itself just answered. That key lives in hardware.
+### The Trezor itself just answered. That key lives in hardware.
 
 ![device](screenshots/02-device-key.png)
 
 *This command asks the plugged-in device to derive its public key. It cannot succeed without a
 real Trezor on USB answering.*
 
-### 3️⃣ The match: the device's key == every authority on-chain.
+### The match: the device's key == every authority on-chain.
 
 ![authority](screenshots/03-authority-match.png)
 
 *Mint authority: **None** (renounced — supply final forever). Freeze: **None** (never existed).
 The keys that remain — fee, withdraw, metadata — all resolve to the Trezor.*
 
-### 4️⃣ Why it was "impossible": Trezor support was deleted from Solana's CLI for 5+ years.
+### Why it was "impossible": Trezor support was deleted from Solana's CLI for 5+ years.
 
 ![gap](screenshots/04-five-year-gap.png)
 
 *Version-by-version receipts from the library's own source: [CLAIM-BASIS.md](CLAIM-BASIS.md#how-long-was-trezor-absent-primary-source-version-walk-oct-15-2026--docsrs-source-reads-of-locatorrs--github-tree-listings).*
 
-### 5️⃣ The fix: two dependency lines. Zero crypto code. 0 → 219 Trezor symbols.
+### The fix: two dependency lines. Zero crypto code. 0 → 219 Trezor symbols.
 
 ![binary](screenshots/05-binary-proof.png)
 
 *Rebuild it yourself in ~10 min: [trezor-mint-kit](https://github.com/agi-digital-dot/trezor-mint-kit)
 (self-verifying build — fails loudly if the binary lacks Trezor support).*
 
-### 6️⃣ Genesis: 5 transactions, all hardware-signed, all on mainnet.
+### Genesis: 5 transactions, all hardware-signed, all on mainnet.
 
 ![genesis](screenshots/06-genesis.png)
 
 *Full signatures + explorer-verifiable: [genesis.json](genesis.json) · [VERIFY-RECEIPTS.md](VERIFY-RECEIPTS.md) · run the whole proof: `bash proof.sh`*
 
-### 7️⃣ Not our word — Solscan's. Third-party explorer, real browser.
+### Not our word — Solscan's. Third-party explorer, real browser.
 
 ![solscan](screenshots/07-solscan.png)
 

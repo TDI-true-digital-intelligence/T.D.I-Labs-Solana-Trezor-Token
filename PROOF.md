@@ -37,7 +37,7 @@ $ getAccountInfo(3e2PYneVBXTyemNiSQ5VVkuYM4bYNPxLqvWkKjA5zXAM)
 
 | From the DEVICE (A) | From MAINNET (B) | Equal? |
 |---|---|---|
-| `DbJ5...e7W` | every retained authority | ✅ |
+| `DbJ5...e7W` | every retained authority |  |
 
 Every authority TDI ever had resolves to the key that *just answered from inside a Trezor*.
 The five genesis transactions (see [genesis.json](genesis.json)) were each signed by this key —
