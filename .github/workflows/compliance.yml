@@ -1,0 +1,14 @@
+name: Public compliance
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  compliance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Legal compliance (license, trademark, disclosure, no-secrets)
+        run: python3 tests/test_public_compliance.py
