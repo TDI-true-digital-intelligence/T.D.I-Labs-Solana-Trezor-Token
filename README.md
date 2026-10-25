@@ -82,3 +82,27 @@ This repository's contents: MIT — see [LICENSE](LICENSE).
 
 *Created 2026-10-15 by Lord of Bits + ECHO Ultra - Master Control. Every signature above was
 confirmed on a Trezor Model T screen.*
+
+
+---
+
+## Trademark notice
+
+"Trezor" is a trademark of SatoshiLabs and "Solana" is a trademark of the Solana Foundation.
+This project is an independent record of a token creation and is not affiliated with,
+endorsed by, or sponsored by either.
+
+## AI-assistance disclosure
+
+This record was produced with AI assistance (agentic coding — Echo ULTRA / Master Control).
+Every on-chain claim is independently verifiable via the receipts and proof script in this repo.
+The human maintainer reviewed and signed every transaction on the Trezor Model T hardware wallet.
+
+## Privacy
+
+Nothing is collected. All data in this repo is public blockchain data plus local screenshots.
+
+## Not financial advice
+
+Nothing here is financial or legal advice. Token creation may have legal and tax consequences
+in your jurisdiction (including Australia); you are solely responsible for compliance.
