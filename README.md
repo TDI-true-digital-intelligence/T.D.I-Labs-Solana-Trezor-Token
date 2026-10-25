@@ -1,6 +1,6 @@
 # TDI — True Digital Intelligence
 
-<img src="https://raw.githubusercontent.com/agi-digital-dot/agi-digital-dot/main/logo.png" width="75" alt="TDI" />
+<img src="https://raw.githubusercontent.com/TDI-true-digital-intelligence/agi-digital-dot/main/logo.png" width="75" alt="TDI" />
 
 **Trezor-born.** Every identity-defining transaction of TDI was signed on a **Trezor Model T**
 screen. No software keypair ever held the mint's authorities. Don't take the word for it —
@@ -39,7 +39,7 @@ The keys that remain — fee, withdraw, metadata — all resolve to the Trezor.*
 
 ![binary](screenshots/05-binary-proof.png)
 
-*Rebuild it yourself in ~10 min: [trezor-mint-kit](https://github.com/agi-digital-dot/trezor-mint-kit)
+*Rebuild it yourself in ~10 min: [trezor-mint-kit](https://github.com/TDI-true-digital-intelligence/T.D.I-Labs-Trezor-Mint-Kit)
 (self-verifying build — fails loudly if the binary lacks Trezor support).*
 
 ### Genesis: 5 transactions, all hardware-signed, all on mainnet.
@@ -74,7 +74,7 @@ Built on infrastructure others made, used with gratitude and attribution:
 
 - **Anza + Solana Labs + solana-program contributors** — the Token-2022 program and the `spl-token` CLI (Apache-2.0) TDI was created with
 - **Trezor / Satoshilabs** — the Model T hardware that signed every genesis transaction; `trezor-client` (MIT)
-- Build tooling + license details: [trezor-mint-kit](https://github.com/agi-digital-dot/trezor-mint-kit) (MIT + NOTICE)
+- Build tooling + license details: [trezor-mint-kit](https://github.com/TDI-true-digital-intelligence/T.D.I-Labs-Trezor-Mint-Kit) (MIT + NOTICE)
 
 This repository's contents: MIT — see [LICENSE](LICENSE).
 
