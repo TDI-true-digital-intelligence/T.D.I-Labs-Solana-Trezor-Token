@@ -50,14 +50,14 @@ $ strings ~/.cargo/bin/spl-token | grep -c -i trezor
 219
 ```
 
-Rebuild it yourself with the [trezor-mint-kit](https://github.com/agi-digital-dot/trezor-mint-kit)
+Rebuild it yourself with the [trezor-mint-kit](https://github.com/TDI-true-digital-intelligence/T.D.I-Labs-Trezor-Mint-Kit)
 (~10 min, self-verifying build) and the count comes back non-zero — the stock crates.io binary
 returns 0.
 
 ## Run the whole proof
 
 ```bash
-git clone https://github.com/agi-digital-dot/tdi-true-digital
+git clone https://github.com/TDI-true-digital-intelligence/tdi-true-digital
 cd tdi-true-digital && bash proof.sh
 ```
 

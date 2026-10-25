@@ -66,4 +66,4 @@ sha256(live logo.png) first 16 hex == sha256(local kit copy) first 16 == 5198558
 ---
 
 *Produced by the Trezor Mint Protocol build system
-([trezor-mint-kit](https://github.com/agi-digital-dot/trezor-mint-kit)).*
+([trezor-mint-kit](https://github.com/TDI-true-digital-intelligence/T.D.I-Labs-Trezor-Mint-Kit)).*

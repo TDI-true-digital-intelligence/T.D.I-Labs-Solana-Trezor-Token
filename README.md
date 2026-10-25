@@ -1,6 +1,6 @@
 # TDI — True Digital Intelligence
 
-<img src="https://raw.githubusercontent.com/TDI-true-digital-intelligence/agi-digital-dot/main/logo.png" width="75" alt="TDI" />
+<img src="https://raw.githubusercontent.com/TDI-true-digital-intelligence/TDI-true-digital-intelligence/main/logo.png" width="75" alt="TDI" />
 
 **Trezor-born.** Every identity-defining transaction of TDI was signed on a **Trezor Model T**
 screen. No software keypair ever held the mint's authorities. Don't take the word for it —
